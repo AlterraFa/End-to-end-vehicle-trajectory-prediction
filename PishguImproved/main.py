@@ -8,8 +8,8 @@ from rich.traceback import install
 install(show_locals = False)
 
 device = torch.device('cuda')
-trainLoader = torch.load("./processedDataset/testLoader.pt", weights_only = False)
-valLoader = torch.load("./processedDataset/testLoader.pt", weights_only = False)
+trainLoader = torch.load("./processedDataset/trainLoader.pt", weights_only = False)
+valLoader = torch.load("./processedDataset/valLoader.pt", weights_only = False)
 
 observed_steps = 15
 prediction_steps = 25
