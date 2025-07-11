@@ -1,0 +1,9 @@
+torch
+torch_geometric
+torchinfo
+rich
+scipy
+tensorflow
+tensorboard
+matplotlib
+pandas
